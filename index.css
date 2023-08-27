@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+}
+.hide{
+    display: none;
+}
+.gameArea{
+    background-color: #494F55;
+    width:30%;
+    height:100vh;
+    position: absolute;
+    margin-left: 500px;
+   }
+.container{
+    display: inline-flex;
+}
+.gameStart{
+    position: absolute;
+    left: 500px;
+    top: 250px;
+    z-index: 1;
+    
+    background-color: red;
+
+}
+.car{
+    width:20px;
+    height:200px;
+    position: absolute;
+}
